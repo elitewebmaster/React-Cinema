@@ -49,15 +49,15 @@ class NewEdit extends Component {
       errorMessage.push("Invalid year.");
     } 
 
-    if(action === "new"){
-      list.map(res => {   
-        if(res.Title.toLowerCase() === Title.toLowerCase()) {
-          error = true;
-          errorMessage.push("The same movie name is already exist.");
-        }
-        return true;
-      })
-    }
+    
+    list.map((res, index) => {   
+      if(res.Title.toLowerCase() === Title.toLowerCase() && index !== active) {
+        error = true;
+        errorMessage.push("The same movie name is already exist.");
+      }
+      return true;
+    })
+    
 
     if(!error){
       let obj = { 
@@ -113,7 +113,7 @@ class NewEdit extends Component {
           </InputGroup>
           <InputGroup>
             <InputGroupAddon addonType="prepend">Year</InputGroupAddon>
-            <Input name="Year" onChange={this.input} value={this.state.Year} />
+            <Input name="Year" onChange={this.input} value={this.state.Year} maxLength="4" />
           </InputGroup>
           <InputGroup>
             <InputGroupAddon addonType="prepend">Runtime</InputGroupAddon>
