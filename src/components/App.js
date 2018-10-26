@@ -7,7 +7,7 @@ import Movie from './Movie';
 import Delete from './Delete';
 import NewEdit from './NewEdit';
 import Loading from './Loading';
-import logo from '../../src/logo.svg';
+import logo from '../logo.svg';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faVideo, faPlus, faEdit, faTrash, faTimes, faCheck } from '@fortawesome/free-solid-svg-icons';
