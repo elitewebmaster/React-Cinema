@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/Herolo-Cinema/static/js/runtime~main.91ed450c.js"
   },
   {
-    "revision": "a8ff0928a155412249c0",
-    "url": "/Herolo-Cinema/static/js/main.a8ff0928.chunk.js"
+    "revision": "1f14ecd1cd2796cfebad",
+    "url": "/Herolo-Cinema/static/js/main.1f14ecd1.chunk.js"
   },
   {
     "revision": "4b7d059b9ded2bf4369a",
     "url": "/Herolo-Cinema/static/js/1.4b7d059b.chunk.js"
   },
   {
-    "revision": "a8ff0928a155412249c0",
+    "revision": "1f14ecd1cd2796cfebad",
     "url": "/Herolo-Cinema/static/css/main.18f3dd40.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Herolo-Cinema/static/css/1.f34439dc.chunk.css"
   },
   {
-    "revision": "2f41dee6573510810e687bd4755c568c",
+    "revision": "67abaab3e4498abd2ded674f799684c6",
     "url": "/Herolo-Cinema/index.html"
   }
 ];

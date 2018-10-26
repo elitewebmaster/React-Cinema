@@ -1,7 +1,7 @@
 {
   "main.css": "/Herolo-Cinema/static/css/main.18f3dd40.chunk.css",
-  "main.js": "/Herolo-Cinema/static/js/main.a8ff0928.chunk.js",
-  "main.js.map": "/Herolo-Cinema/static/js/main.a8ff0928.chunk.js.map",
+  "main.js": "/Herolo-Cinema/static/js/main.1f14ecd1.chunk.js",
+  "main.js.map": "/Herolo-Cinema/static/js/main.1f14ecd1.chunk.js.map",
   "static/css/1.f34439dc.chunk.css": "/Herolo-Cinema/static/css/1.f34439dc.chunk.css",
   "static/js/1.4b7d059b.chunk.js": "/Herolo-Cinema/static/js/1.4b7d059b.chunk.js",
   "static/js/1.4b7d059b.chunk.js.map": "/Herolo-Cinema/static/js/1.4b7d059b.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/media/logo.svg": "/Herolo-Cinema/static/media/logo.5d5d9eef.svg",
   "static/css/1.f34439dc.chunk.css.map": "/Herolo-Cinema/static/css/1.f34439dc.chunk.css.map",
   "index.html": "/Herolo-Cinema/index.html",
-  "precache-manifest.574e65b05ef8b811d19fc493d13faaa5.js": "/Herolo-Cinema/precache-manifest.574e65b05ef8b811d19fc493d13faaa5.js",
+  "precache-manifest.834ad241c6e3d8ae7338364836817f24.js": "/Herolo-Cinema/precache-manifest.834ad241c6e3d8ae7338364836817f24.js",
   "service-worker.js": "/Herolo-Cinema/service-worker.js"
 }
