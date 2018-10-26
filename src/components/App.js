@@ -10,9 +10,9 @@ import Loading from './Loading';
 import logo from '../../src/logo.svg';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFilm, faPlus, faEdit, faTrash, faTimes, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faVideo, faPlus, faEdit, faTrash, faTimes, faCheck } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faFilm, faPlus, faEdit, faTrash, faTimes, faCheck);
+library.add(faVideo, faPlus, faEdit, faTrash, faTimes, faCheck);
 
 class App extends Component {
   state = {
@@ -54,26 +54,28 @@ class App extends Component {
     }
 
     return (
-      <div className="mt-3 mb-3">
+      <div className="mb-3">
         <header>
           <h1 className="text-center"><img className="logo" src={logo} alt="React" /> Herolo Cinema</h1>
         </header>
 
         <Container className="mt-3 mb-3">
           <Row>
-            <Col className="text-center">
-              {
+            <Col>
+              <h2>
+                Movies List
+                {
                 (!loading) && 
-                  <Button color="primary" onClick={()=> this.props.setToggle(null, "new")}><FontAwesomeIcon icon="plus" /> Add new movie</Button>
-              }
-              
+                  <Button className="add" color="primary" onClick={()=> this.props.setToggle(null, "new")}><FontAwesomeIcon icon="plus" /> Add new movie</Button>
+                }
+              </h2>
+              <hr />
             </Col>
           </Row>
           <Row>
             {result}
           </Row>
         </Container>
-
         {
           (action === "delete" || action === "edit" || action === "new") && 
           <div>

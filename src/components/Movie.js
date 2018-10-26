@@ -12,7 +12,7 @@ class Movie extends Component {
     return (
       <Col className="col-12 col-md-6 col-lg-4">
         <Card className="m-3">
-          <CardHeader><FontAwesomeIcon icon="film" />  Id: {index}</CardHeader>
+          <CardHeader><FontAwesomeIcon icon="video" />  Id: {index}</CardHeader>
           <CardBody>
             <CardTitle>Title: {title}</CardTitle>
             <CardSubtitle>Year: {res.Year}</CardSubtitle>
