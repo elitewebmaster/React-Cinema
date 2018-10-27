@@ -67,7 +67,6 @@ class App extends Component {
               <Button className="add" color="primary" onClick={()=> this.props.setToggle(null, "new")}><FontAwesomeIcon icon="plus" /> Add new movie</Button>
             }
           </h2>
-          <hr />
           <div className="content">{result}</div>
         </div>
         {
