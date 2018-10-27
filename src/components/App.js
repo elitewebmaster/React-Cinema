@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Button, Alert } from 'reactstrap';
+import { Button, Alert } from 'reactstrap';
 import { connect } from 'react-redux';
 import { setMovies, setToggle } from '../actions';
 import axios from 'axios';
@@ -50,7 +50,7 @@ class App extends Component {
       result = <Loading />
     }
     else {
-      result = <Col><Alert color="info text-center mt-3 mb-3">No Result</Alert></Col>
+      result = <Alert color="info text-center mt-3 mb-3">No Result</Alert>
     }
 
     return (
@@ -59,23 +59,17 @@ class App extends Component {
           <h1 className="text-center"><img className="logo" src={logo} alt="React" /> Herolo Cinema</h1>
         </header>
 
-        <Container className="mt-3 mb-3">
-          <Row>
-            <Col>
-              <h2>
-                Movies List
-                {
-                (!loading) && 
-                  <Button className="add" color="primary" onClick={()=> this.props.setToggle(null, "new")}><FontAwesomeIcon icon="plus" /> Add new movie</Button>
-                }
-              </h2>
-              <hr />
-            </Col>
-          </Row>
-          <Row>
-            {result}
-          </Row>
-        </Container>
+        <div className="m-3 text-center">
+          <h2>
+            Movies List
+            {
+            (!loading) && 
+              <Button className="add" color="primary" onClick={()=> this.props.setToggle(null, "new")}><FontAwesomeIcon icon="plus" /> Add new movie</Button>
+            }
+          </h2>
+          <hr />
+          <div className="content">{result}</div>
+        </div>
         {
           (action === "delete" || action === "edit" || action === "new") && 
           <div>

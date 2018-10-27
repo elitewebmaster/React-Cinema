@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Col } from 'reactstrap';
 
 export default class Loading extends Component {
   render() {
     return (
-        <Col className="text-center">
+        <div className="text-center">
             <div className="sk-circle">
               <div className="sk-circle1 sk-child"></div>
               <div className="sk-circle2 sk-child"></div>
@@ -20,7 +19,7 @@ export default class Loading extends Component {
               <div className="sk-circle12 sk-child"></div>
               <span className="loading">Loading...</span>
             </div>
-        </Col>
+        </div>
     );
   }
 }
