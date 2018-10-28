@@ -1,4 +1,4 @@
-# React Herolo Cinema
+# React & Redux Herolo Cinema
 1) git clone https://github.com/elitewebmaster/Herolo-Cinema.git
 2) cd Herolo-Cinema
 3) npm install
