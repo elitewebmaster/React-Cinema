@@ -56,7 +56,7 @@ class App extends Component {
     return (
       <div className="mb-3">
         <header>
-          <h1 className="text-center"><img className="logo" src={logo} alt="React" /> Herolo Cinema</h1>
+          <h1 className="text-center"><img className="logo" src={logo} alt="React" /> React Cinema</h1>
         </header>
 
         <div className="m-3 text-center">
