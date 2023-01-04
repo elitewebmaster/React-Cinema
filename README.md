@@ -1,6 +1,6 @@
 # Manage movies list
 
-Add, edit or remove movie from the list.
+Add, edit or remove movies from the list.
 
 ## Authors
 
