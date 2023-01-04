@@ -2,7 +2,7 @@
   "name": "movies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elitewebmaster.github.io/Herolo-Cinema/",
+  "author": "https://elitewebmaster.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.7",
     "@fortawesome/free-solid-svg-icons": "^5.4.2",
